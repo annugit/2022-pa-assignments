@@ -1,0 +1,58 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+1.	Google Studies - Finding the optimal number of interviews for hiring
+
+Google was infamous for having a lot of interview rounds for hiring candidates. This was not only slowing the process down but also harming Google’s reputation among prospective candidates. So, Google performed a study to find out the optimal number of interviews and found out that after 4 interviews, they got diminishing returns, and so the optimal interview rate was 4. According to me, following is the most likely design of the study:
+
+NR	O1	X	O2
+
+NR – It was possibly a non-random assignment as it is not mentioned whether the study was done for all the interviewees at Google or some. 
+
+O1 – Interview process speed, which was slow because of many rounds of interviews 
+
+X – Reduction in the no. of interviews to 4
+
+O2 – Interview times that decreased and hiring that sped up after reducing the no. of interviews 
+
+Potential threats to inference:
+
+•	There was no control group, and hence, it can’t be determined whether the reduction in no. of interviews was solely or at all responsible for the speeding up of the hiring process. One way to try and address this could be to have a control group, which wouldn’t be subjected to the reduction in interviews. It would have to go through all the interview rounds prior to the study. This would help to better compare the results.
+•	It is not clear whether the slowness of the interview process was just because of the multiple rounds of interviews or whether there were other contributing factors too. One way to try and address this could be to factor in all the possible reasons as to what could be leading to the slowness in the hiring process. For e.g., whether it’s the slowness in some authority’s approval, delay on the part of interviewers themselves, etc. Once all or most of the factors are accounted for, try and isolate each one of them first, and then a combination of them and work on those to see which ones are resulting in the best results.
+
+2.	Managerial Practices Challenge
+From the performance data of 1000 employees, the following are observed:
+•	Using tactic A, 24% of employees had improvement in their performance while 76% had degradation.
+•	Using tactic B, 23.5% of employees had improvement in their performance while 76.5% had degradation.
+•	Tactic A resulted in an average of 67% improvement in employees’ performances, whereas tactic B resulted in an average of 151% degradation in employees’ performances.
+From the above observations, it can be seen that the expert may not be correct in their opinion as their opinion is that tactic A resulted in 9% improved performance and 91% degradation, whereas tactic B resulted in 91% degraded performance and 91% degradation. According to me, the data does not suggest that. If at all, tactic A fares better in that on an average, it resulted in 67% better performance of employees. 
+Collaborators: Abhijeet, Ananya
+
